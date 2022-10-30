@@ -1,13 +1,28 @@
 // tailwind
-@tailwind base;
+// @tailwind base;
 
 // custom
-@import "common";
-@import "locales";
-@import "sidebar";
-@import "markdown";
-@import "code";
+// @import "common";
+// @import "locales";
+// @import "sidebar";
+// @import "markdown";
+// @import "code";
 
-@import "~docsearch.js/dist/cdn/docsearch.css";
+// @import "~docsearch.js/dist/cdn/docsearch.css";
 
-@tailwind utilities;
+body{
+    a{
+        color: #000;
+    }
+
+    span{
+        color: rgb(165, 70, 70);
+    }
+
+    
+    b{
+        background-color: rgb(10, 1, 1);
+    }
+}
+
+// @tailwind utilities;
